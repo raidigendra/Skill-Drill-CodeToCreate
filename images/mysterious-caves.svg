@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="400" y2="300">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#34495e;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-gradient)"/>
+  
+  <!-- Cave Opening -->
+  <path d="M50 50 Q200 0 350 50 Q400 150 350 250 Q200 300 50 250 Q0 150 50 50" fill="#2c3e50"/>
+  
+  <!-- Inner Cave -->
+  <path d="M100 100 Q200 70 300 100 Q330 150 300 200 Q200 230 100 200 Q70 150 100 100" fill="#34495e"/>
+  
+  <!-- Stalactites -->
+  <path d="M150 50 L160 90 L170 50" fill="#95a5a6"/>
+  <path d="M200 50 L210 100 L220 50" fill="#95a5a6"/>
+  <path d="M250 50 L260 80 L270 50" fill="#95a5a6"/>
+  
+  <!-- Stalagmites -->
+  <path d="M140 200 L150 160 L160 200" fill="#95a5a6"/>
+  <path d="M190 200 L200 150 L210 200" fill="#95a5a6"/>
+  <path d="M240 200 L250 170 L260 200" fill="#95a5a6"/>
+  
+  <!-- Crystal Formations -->
+  <polygon points="180,120 185,110 190,120 185,125" fill="#3498db" fill-opacity="0.8"/>
+  <polygon points="220,130 225,120 230,130 225,135" fill="#3498db" fill-opacity="0.8"/>
+  <polygon points="200,140 205,130 210,140 205,145" fill="#3498db" fill-opacity="0.8"/>
+  
+  <!-- Underground Pool -->
+  <ellipse cx="200" cy="180" rx="50" ry="20" fill="#3498db" fill-opacity="0.3"/>
+  
+  <!-- Light Beam -->
+  <path d="M180 70 L220 180" stroke="#f1c40f" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M190 70 L230 180" stroke="#f1c40f" stroke-width="2" stroke-opacity="0.2"/>
+</svg>

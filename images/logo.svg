@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="50" height="50">
+    <style>
+        .compass-ring { fill: none; stroke: #3498db; stroke-width: 4; }
+        .compass-arrow { fill: #e74c3c; }
+        .compass-center { fill: #2c3e50; }
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .rotating {
+            transform-origin: center;
+            animation: rotate 20s linear infinite;
+        }
+    </style>
+    <circle class="compass-ring" cx="50" cy="50" r="45"/>
+    <g class="rotating">
+        <path class="compass-arrow" d="M50 10 L45 50 L50 45 L55 50 L50 10Z"/>
+        <path class="compass-arrow" d="M50 90 L45 50 L50 55 L55 50 L50 90Z" style="fill: #ecf0f1;"/>
+    </g>
+    <circle class="compass-center" cx="50" cy="50" r="5"/>
+</svg>

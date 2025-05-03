@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="400" y2="300">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-gradient)"/>
+  
+  <!-- Sky -->
+  <path d="M0 0 L400 0 L400 150 L0 150 Z" fill="#87ceeb" fill-opacity="0.3"/>
+  
+  <!-- Sun -->
+  <circle cx="50" cy="50" r="20" fill="#f1c40f" fill-opacity="0.8"/>
+  
+  <!-- Clouds -->
+  <path d="M80 60 Q100 40 120 60 Q140 80 160 60" fill="#ecf0f1" fill-opacity="0.6"/>
+  <path d="M280 80 Q300 60 320 80 Q340 100 360 80" fill="#ecf0f1" fill-opacity="0.6"/>
+  
+  <!-- Cliffs -->
+  <path d="M0 150 L100 100 L150 150 L200 120 L250 150 L300 110 L350 150 L400 130 L400 300 L0 300 Z" fill="#95a5a6"/>
+  
+  <!-- Beach -->
+  <path d="M0 200 Q100 180 200 200 Q300 180 400 200 L400 300 L0 300 Z" fill="#f1c40f"/>
+  
+  <!-- Ocean -->
+  <path d="M0 180 Q100 160 200 180 Q300 160 400 180" fill="none" stroke="#3498db" stroke-width="2"/>
+  <path d="M0 190 Q100 170 200 190 Q300 170 400 190" fill="none" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- Palm Tree -->
+  <rect x="50" y="150" width="10" height="40" fill="#795548"/>
+  <path d="M30 150 Q55 130 80 150" fill="#27ae60"/>
+  <path d="M35 140 Q55 120 75 140" fill="#27ae60"/>
+  
+  <!-- Seagulls -->
+  <path d="M250 50 Q260 45 270 50 Q280 45 290 50" stroke="#2c3e50" stroke-width="2" fill="none"/>
+  <path d="M280 70 Q290 65 300 70 Q310 65 320 70" stroke="#2c3e50" stroke-width="2" fill="none"/>
+</svg>

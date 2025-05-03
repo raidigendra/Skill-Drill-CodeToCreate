@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      @keyframes float {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
+        100% { transform: translateY(0); }
+      }
+      .profile-bg { fill: #3498db; }
+      .profile-circle { fill: #fff; }
+      .profile-details { fill: #2c3e50; }
+      .profile-img { animation: float 3s ease-in-out infinite; }
+    </style>
+  </defs>
+  
+  <g class="profile-img">
+    <!-- Background Circle -->
+    <circle class="profile-bg" cx="75" cy="75" r="75"/>
+    
+    <!-- Profile Circle -->
+    <circle class="profile-circle" cx="75" cy="65" r="30"/>
+    
+    <!-- Body Shape -->
+    <path class="profile-circle" d="M 30 140 Q 75 110 120 140" />
+    
+    <!-- Mountain Icon (for Adventure Guide) -->
+    <path class="profile-details" d="M 60 50 L 75 35 L 90 50 Z" fill="none" stroke="#2c3e50" stroke-width="2"/>
+    
+    <!-- Decorative Elements -->
+    <circle class="profile-details" cx="65" cy="60" r="2"/>
+    <circle class="profile-details" cx="85" cy="60" r="2"/>
+    
+    <!-- Hair -->
+    <path class="profile-details" d="M 55 55 Q 75 35 95 55" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  </g>
+</svg>

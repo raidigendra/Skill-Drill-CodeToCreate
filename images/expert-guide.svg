@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="400" y2="300">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#2ecc71;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg-gradient)"/>
+  
+  <!-- Professional guide figure -->
+  <circle cx="200" cy="100" r="25" fill="#34495e"/>  <!-- Head -->
+  <path d="M180 130 Q200 140 220 130 L215 180 Q200 190 185 180 Z" fill="#34495e"/>  <!-- Body -->
+  <path d="M190 180 L185 220 L195 220 M210 180 L215 220 L205 220" fill="#34495e"/>  <!-- Legs -->
+  
+  <!-- Backpack -->
+  <path d="M185 140 Q175 160 180 180 Q185 185 190 180 Z" fill="#e67e22"/>
+  
+  <!-- Compass rose -->
+  <circle cx="200" cy="150" r="50" stroke="#e74c3c" stroke-width="3" fill="none"/>
+  <path d="M200 110 L200 190 M160 150 L240 150" stroke="#e74c3c" stroke-width="3"/>
+  <path d="M200 110 L210 150 L200 190 L190 150 Z" fill="#c0392b" fill-opacity="0.3"/>
+  
+  <!-- Trail markers -->
+  <circle cx="150" cy="200" r="5" fill="#f1c40f"/>
+  <circle cx="250" cy="200" r="5" fill="#f1c40f"/>
+  <path d="M150 200 Q200 180 250 200" stroke="#f1c40f" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Mountains in background -->
+  <path d="M50 250 L150 150 L250 250 M200 200 L300 100 L400 250" fill="none" stroke="#95a5a6" stroke-width="2"/>
+</svg>
